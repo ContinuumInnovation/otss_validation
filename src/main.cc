@@ -35,6 +35,7 @@ Created by Adam Casey 2016
 
 #include <iostream>
 
+#include "main.h"
 
 int main(void)
 {
