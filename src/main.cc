@@ -35,7 +35,7 @@ Created by Adam Casey 2016
 
 #include <iostream>
 
-int main(void)// This comment will cause lint to fail
+int main(void)   // This comment will cause lint to pass
 {
     std::cout << "Validating Travis CI" << std::endl;
 
