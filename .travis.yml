@@ -1,0 +1,8 @@
+language: cpp
+sudo: required
+dist: trusty
+before_install:
+- wget https://continuumdev.com/packages/qemu_2.5.1.1-1_amd64.deb
+install:
+- sudo apt-get -y install g++-arm-linux-gnueabihf
+script: ./build.sh -c

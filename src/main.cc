@@ -31,10 +31,11 @@ DAMAGE.
 Created by Adam Casey 2016
 ------------------------------------------------------------------------------*/
 
+// This is a test line
+
 #include <iostream>
 
-
-int main(void)
+int main(void)   // This comment will cause lint to pass
 {
     std::cout << "Validating Travis CI" << std::endl;
 
